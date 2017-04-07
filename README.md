@@ -14,7 +14,7 @@ chmod +x ./raspbianizer_loop.bash
 - Specify the correct device path to the fresh SD card (e.g. /dev/sdd, /dev/sde, or /dev/sdx)
 - Example:
 ```sh
-export OS_IMG_FILE="2017-01-11-raspbian-jessie.img" && sudo raspbianizer_loop.bash /dev/sdx
+export OS_IMG_FILE="2017-01-11-raspbian-jessie.img" && sudo ./raspbianizer_loop.sh /dev/sdx
 ```
 
 #### Step 7: Boot
