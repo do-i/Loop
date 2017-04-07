@@ -33,7 +33,9 @@ Open terminal and run
 ```sh
 sudo raspi-config
 ```
-Then, enable SSH
+Then,
+1. enable SSH
+2. change password for pi
 
 #### Step 10: Download multi-omxplayer.bash into RaspberryPi
 [github](https://raw.githubusercontent.com/do-i/Loop/master/multi-omxplayer.bash)
@@ -56,5 +58,17 @@ Add the following into /etc/fstab
 /dev/sda1 /mnt vfat defaults 0 0
 ```
 
-#### Step 14: Reboot
+#### Step 14: install unclutter to hide mouse cursor
+sudo apt-get install unclutter
+
+#### Step 15: Add this to ~/.config/lxsession/LXDE-pi/autostart
+unclutter -idle 0
+
+#### Step 16: Change background color to solid black
+This is a hack so that during playback desktop won't show up between files.
+
+#### Step 17: Remove panel items and change task bar color to black
+This is a hack so that during playback desktop won't show up between files.
+
+#### Step 18: Reboot
 Just unplug power cable and plug back in
