@@ -4,7 +4,8 @@
 #### Step 2: Unzip the download archive file
 #### Step 3: Move the unzipped img file to a work directory (e.g., ~/)
 #### Step 4: Download raspbianizer_loop.bash to a work directory
-- TODO download URL
+[github](https://raw.githubusercontent.com/do-i/Loop/master/raspbianizer_loop.bash)
+
 #### Step 5: Make the file executable
 ```sh
 chmod +x ./raspbianizer_loop.bash
@@ -14,7 +15,7 @@ chmod +x ./raspbianizer_loop.bash
 - Specify the correct device path to the fresh SD card (e.g. /dev/sdd, /dev/sde, or /dev/sdx)
 - Example:
 ```sh
-export OS_IMG_FILE="2017-01-11-raspbian-jessie.img" && sudo ./raspbianizer_loop.sh /dev/sdx
+export OS_IMG_FILE="2017-01-11-raspbian-jessie.img" && sudo ./raspbianizer_loop.bash /dev/sdx
 ```
 
 #### Step 7: Boot
@@ -35,7 +36,7 @@ sudo raspi-config
 Then, enable SSH
 
 #### Step 10: Download multi-omxplayer.bash into RaspberryPi
-- TODO: download URL
+[github](https://raw.githubusercontent.com/do-i/Loop/master/multi-omxplayer.bash)
 
 #### Step 11: Executable
 ```sh
