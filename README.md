@@ -60,7 +60,7 @@ Add the following into /etc/fstab
 
 #### Step 14: install unclutter to hide mouse cursor
 ```
-sudo apt-get install unclutter
+sudo apt install unclutter
 ```
 
 #### Step 15: Add this to ~/.config/lxsession/LXDE-pi/autostart
