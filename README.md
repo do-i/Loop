@@ -59,10 +59,15 @@ Add the following into /etc/fstab
 ```
 
 #### Step 14: install unclutter to hide mouse cursor
+```
 sudo apt-get install unclutter
+```
 
 #### Step 15: Add this to ~/.config/lxsession/LXDE-pi/autostart
-unclutter -idle 0
+```
+@xscreensaver -no-splash
+@unclutter
+```
 
 #### Step 16: Change background color to solid black
 This is a hack so that during playback desktop won't show up between files.
