@@ -49,6 +49,7 @@ Then,
 Add the following into .bashrc
 ```sh
 sudo /etc/init.d/ssh start
+unclutter -idle 1 &
 /home/pi/multi-omxplayer.bash &
 ```
 
