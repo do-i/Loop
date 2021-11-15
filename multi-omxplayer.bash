@@ -25,5 +25,5 @@ fi
 create_playlist
 chmod +x ${PLAY_LIST}
 while true; do
-  ./${PLAY_LIST}
+  ./${PLAY_LIST} || break
 done
